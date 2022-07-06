@@ -1,0 +1,17 @@
+{
+  "name": "validationapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "devstart": "nodemon main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^13.1.0",
+    "node": "^18.4.0",
+    "nodemon": "^2.0.18"
+  }
+}
