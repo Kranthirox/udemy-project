@@ -11,6 +11,8 @@
   "dependencies": {
     "express": "^4.18.1",
     "joi": "^13.1.0",
+    "mongoose": "^6.4.3",
+    "mongose": "^0.0.2-security",
     "node": "^18.4.0",
     "nodemon": "^2.0.18"
   }

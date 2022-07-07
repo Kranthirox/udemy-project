@@ -6,8 +6,9 @@ const router = express.Router();
 const logger =require("./logger")
 app.use(express.json());
 app.use(express.urlencoded())
+const DB =require('./mongadb')
 
-
+DB.connector()
 app.use(logger)
 
 
